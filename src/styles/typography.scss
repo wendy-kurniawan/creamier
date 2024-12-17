@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500,600,700&display=swap");
+
+.heading-secondary {
+  margin-bottom: 4.5rem;
+  font-size: 3.4rem;
+  font-weight: var(--font-regular);
+
+  &::after {
+    content: "";
+    display: block;
+    width: 10rem;
+    height: 0.5rem;
+    margin-top: 2rem;
+    background-color: var(--orange-300);
+  }
+}

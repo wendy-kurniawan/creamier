@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  color: var(--skeleton-loading);
+}
+
+::-ms-input-placeholder {
+  color: var(--skeleton-loading);
+}
+
+button,
+a {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.button {
+  user-select: none;
+  border: none;
+  display: inline-block;
+  background-color: var(--skeleton-loading);
+  width: 20rem;
+  height: 5rem;
+  border-radius: 999px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+
+  &__input,
+  &__textarea {
+    font-family: inherit;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    color: var(--skeleton-loading);
+    outline: 1px solid var(--skeleton-loading);
+    border: 1px solid var(--skeleton-loading);
+    transition: outline 0.15s ease-in, border 0.15s ease-in;
+
+    background-color: var(--skeleton-loading);
+  }
+}

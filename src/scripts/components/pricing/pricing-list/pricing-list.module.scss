@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.pricings {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3.6rem;
+}
+
+@media only screen and (min-width: 658px) {
+  .pricings {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  .pricings {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

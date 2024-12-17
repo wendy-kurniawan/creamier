@@ -1,0 +1,10 @@
+.section-meals--favorite #restaurant-container {
+  min-height: 90rem;
+  height: 100%;
+
+  &.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

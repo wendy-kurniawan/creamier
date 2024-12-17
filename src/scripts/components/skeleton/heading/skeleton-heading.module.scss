@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading.skeleton {
+  user-select: none;
+  width: 100%;
+  max-width: 32rem;
+  height: 7.5rem;
+  background-color: var(--skeleton-loading);
+}

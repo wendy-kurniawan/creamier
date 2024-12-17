@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.meals {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 32rem);
+  grid-auto-columns: 32rem;
+  grid-auto-flow: column;
+  justify-content: space-around;
+  overflow-x: scroll;
+  gap: 5rem;
+}

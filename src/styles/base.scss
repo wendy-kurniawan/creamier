@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 50%;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+  font-weight: var(--font-regular);
+  color: var(--black-300);
+}
+
+main {
+  min-height: 100%;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+a {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}

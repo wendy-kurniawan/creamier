@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.review {
+  &__item {
+    padding: 4rem;
+    background-color: var(--skeleton-soft);
+  }
+
+  &__name {
+    width: 100%;
+    height: 3rem;
+    background-color: var(--skeleton-loading);
+    margin-bottom: 0.5rem;
+  }
+
+  &__date {
+    width: 100%;
+    height: 2.5rem;
+    background-color: var(--skeleton-loading);
+  }
+
+  &__comment {
+    margin: 2rem 0;
+    width: 100%;
+    height: 8rem;
+    background-color: var(--skeleton-loading);
+  }
+}
